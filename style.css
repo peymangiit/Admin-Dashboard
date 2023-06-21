@@ -422,7 +422,12 @@ body{
     .main.active .toggle{
         position: fixed;
         right: 0;
-        left: initial;
+      
         color: var(--white);
+    }
+}
+@media (min-width:320px){
+    .main.active .toggle{
+        position: relative;
     }
 }
